@@ -21,6 +21,8 @@ import java.util.List;
 import java.util.Random;
 
 /**
+ * random filter: randomly selects a given percentage of all filtered tuples
+ * 
  * @author ricardocabral
  * 
  */
@@ -30,7 +32,10 @@ public class RandomSampleFilter implements Filter {
 	private static Random random;
 
 	/**
-	 * @param sampleSize
+	 * @param threshold
+	 *            the percentage (float in the range [0,1]) of data tuples to
+	 *            filter out. So if <code>threshold</code> is 0.6, 60% of all
+	 *            input data is discarded
 	 */
 	public RandomSampleFilter(final float threshold) {
 		super();

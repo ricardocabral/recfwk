@@ -20,6 +20,8 @@ package com.isnotworking.recfwk.model;
 import java.util.List;
 
 /**
+ * represents a recommendation made
+ * 
  * @author ricardocabral
  * 
  */
@@ -27,6 +29,12 @@ public class Recommendation {
 	private final String targetItemId;
 	private final List<RecommendedItem> recdItems;
 
+	/**
+	 * @param targetItemId
+	 *            the target item these recommendations were made to
+	 * @param recdItems
+	 *            list of recommended items
+	 */
 	public Recommendation(final String targetItemId,
 			final List<RecommendedItem> recdItems) {
 		super();
@@ -34,10 +42,20 @@ public class Recommendation {
 		this.recdItems = recdItems;
 	}
 
+	/**
+	 * items recommended
+	 * 
+	 * @return
+	 */
 	public List<RecommendedItem> getRecdItems() {
 		return recdItems;
 	}
 
+	/**
+	 * target item id to which these recommendations were made to
+	 * 
+	 * @return item id
+	 */
 	public String getTargetItemId() {
 		return targetItemId;
 	}

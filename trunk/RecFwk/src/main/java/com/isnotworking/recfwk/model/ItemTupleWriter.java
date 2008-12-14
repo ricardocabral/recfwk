@@ -20,7 +20,7 @@ package com.isnotworking.recfwk.model;
 import java.util.List;
 
 /**
- * Persist data tuples
+ * Persists data tuples
  * 
  * @author ricardocabral
  * 
