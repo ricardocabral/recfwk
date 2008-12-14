@@ -22,6 +22,6 @@ package com.isnotworking.recfwk.model;
  * 
  */
 public interface Recommender {
-	public Recommendation recommend(String target, int numItems);
+	Recommendation recommend(String target, int numItems);
 
 }
