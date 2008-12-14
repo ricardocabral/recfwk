@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="javadoc">
+<target name="javadoc">
+<javadoc access="package" author="true" classpath="lib/log4j.jar:lib/jyaml-1.3.jar:/Users/ricardocabral/Applications/eclipse-34/plugins/org.junit4_4.3.1/junit.jar:etc" destdir="doc" doctitle="Recommender Evaluation Framework" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="recfwk.util,recfwk.model,recfwk.engine,recfwk.filters" source="1.5" sourcepath="src-test:src" splitindex="true" use="true" version="true"/>
+</target>
+</project>
