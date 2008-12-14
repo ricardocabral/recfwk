@@ -22,6 +22,15 @@ package com.isnotworking.recfwk.model;
  * 
  */
 public interface Recommender {
+	/**
+	 * Recommend items to a target
+	 * 
+	 * @param target
+	 *            the recommendation target (user id, group id etc)
+	 * @param numItems
+	 *            maximum number of recommended items to return (may return less
+	 *            than this)
+	 * @return
+	 */
 	Recommendation recommend(String target, int numItems);
-
 }
