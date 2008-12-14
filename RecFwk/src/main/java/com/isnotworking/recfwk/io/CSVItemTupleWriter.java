@@ -27,6 +27,8 @@ import java.util.List;
 import com.isnotworking.recfwk.model.ItemTupleWriter;
 
 /**
+ * writes a list of tuples to disk as comma-separated text files
+ * 
  * @author ricardocabral
  * 
  */
@@ -50,6 +52,9 @@ public class CSVItemTupleWriter implements ItemTupleWriter {
 
 	/**
 	 * @param filename
+	 *            output filename (absolute path)
+	 * @param delimiter
+	 *            field separator
 	 * @throws IOException
 	 */
 	public CSVItemTupleWriter(final String filename, final String delimiter)
@@ -61,10 +66,21 @@ public class CSVItemTupleWriter implements ItemTupleWriter {
 
 	}
 
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see com.isnotworking.recfwk.model.ItemTupleWriter#finish()
+	 */
 	public void finish() {
 		out.close();
 	}
 
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * com.isnotworking.recfwk.model.ItemTupleWriter#writeTuple(java.util.List)
+	 */
 	public boolean writeTuple(final List tuple) {
 		out.println(join(tuple, delimiter));
 		return true;

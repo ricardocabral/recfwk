@@ -18,6 +18,8 @@
 package com.isnotworking.recfwk.model;
 
 /**
+ * represents a recommended item
+ * 
  * @author ricardocabral
  * 
  */
@@ -25,11 +27,20 @@ public class RecommendedItem extends Item {
 
 	public float rate = 0;
 
+	/**
+	 * @param id
+	 *            the recommended items id
+	 */
 	public RecommendedItem(final String id) {
 		super(id);
 
 	}
 
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see java.lang.Object#equals(java.lang.Object)
+	 */
 	@Override
 	public boolean equals(final Object obj) {
 		return ((RecommendedItem) obj).getId().equals(getId());

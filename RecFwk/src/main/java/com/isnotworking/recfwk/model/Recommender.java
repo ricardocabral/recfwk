@@ -18,6 +18,8 @@
 package com.isnotworking.recfwk.model;
 
 /**
+ * Provides recommendations to target items
+ * 
  * @author ricardocabral
  * 
  */

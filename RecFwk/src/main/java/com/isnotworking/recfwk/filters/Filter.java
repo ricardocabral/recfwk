@@ -20,6 +20,8 @@ package com.isnotworking.recfwk.filters;
 import java.util.List;
 
 /**
+ * filters a stream of data tuples
+ * 
  * @author ricardocabral
  * 
  */
