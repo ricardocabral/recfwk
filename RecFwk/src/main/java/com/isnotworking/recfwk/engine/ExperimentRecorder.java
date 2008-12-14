@@ -29,6 +29,8 @@ import org.ho.yaml.Yaml;
 import com.isnotworking.recfwk.util.StringUtils;
 
 /**
+ * Records experiment results to disk
+ * 
  * @author ricardocabral
  * 
  */
@@ -52,6 +54,13 @@ public class ExperimentRecorder {
 				+ ".yml");
 	}
 
+	/**
+	 * record a single result instance
+	 * 
+	 * @param res
+	 *            keys are experiment variables. Normally one of the entries are
+	 *            the experiment result or performance
+	 */
 	public void record(final Map res) {
 		if (outFile.exists()) {
 			try {

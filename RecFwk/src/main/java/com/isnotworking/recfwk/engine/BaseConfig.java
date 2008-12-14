@@ -18,11 +18,18 @@
 package com.isnotworking.recfwk.engine;
 
 /**
+ * Holds the most important config parameters. These parameters are to be reused
+ * by framework instantiations.
+ * 
  * @author ricardocabral
  * 
  */
 public class BaseConfig {
 	// public static final String dataDir =
 	// "/Users/ricardocabral/Projects/tecweb-data/";
+	/**
+	 * base dir for data files
+	 * 
+	 */
 	public static final String dataDir = "/media/media2/prj/tecweb-data/";
 }

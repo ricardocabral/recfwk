@@ -4,7 +4,7 @@
 	<groupId>com.isnotworking</groupId>
 	<artifactId>RecFwk</artifactId>
 	<packaging>jar</packaging>
-	<version>0.2-SNAPSHOT</version>
+	<version>0.3</version>
 	<name>RecFwk</name>
 	<url>http://maven.apache.org</url>
 	<build>
