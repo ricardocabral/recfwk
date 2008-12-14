@@ -1,0 +1,1 @@
+svn  propset svn:mime-type "text/html" `find . -name "*.html"`
