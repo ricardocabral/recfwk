@@ -1,4 +1,5 @@
-recfwk.engine
-recfwk.filters
-recfwk.model
-recfwk.util
+com.isnotworking.recfwk.engine
+com.isnotworking.recfwk.filters
+com.isnotworking.recfwk.io
+com.isnotworking.recfwk.model
+com.isnotworking.recfwk.util
