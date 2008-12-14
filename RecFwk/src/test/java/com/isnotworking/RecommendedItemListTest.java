@@ -10,9 +10,13 @@ import org.junit.Test;
 
 import com.isnotworking.recfwk.model.RecommendedItem;
 
+/**
+ * @author ricardocabral
+ * 
+ */
 public class RecommendedItemListTest {
 	@Test
-	public void testContains() {
+	public final void testContains() {
 		List<RecommendedItem> recds = new ArrayList<RecommendedItem>();
 		recds.add(new RecommendedItem("1"));
 		assertTrue(recds.contains(new RecommendedItem("1")));
