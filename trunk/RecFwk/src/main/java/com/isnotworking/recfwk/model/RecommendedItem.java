@@ -18,7 +18,7 @@
 package com.isnotworking.recfwk.model;
 
 /**
- * represents a recommended item
+ * Represents a recommended item.
  * 
  * @author ricardocabral
  * 
