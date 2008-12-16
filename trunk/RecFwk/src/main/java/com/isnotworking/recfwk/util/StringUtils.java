@@ -1,5 +1,11 @@
 package com.isnotworking.recfwk.util;
 
+/**
+ * Misc string utils
+ * 
+ * @author ricardocabral
+ * 
+ */
 public class StringUtils {
 	public static String slugify(final String title) {
 		String slug;
