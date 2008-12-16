@@ -18,14 +18,14 @@
 package com.isnotworking.recfwk.model;
 
 /**
- * Provides recommendations to target items
+ * Provides recommendations to target items.
  * 
  * @author ricardocabral
  * 
  */
 public interface Recommender {
 	/**
-	 * Recommend items to a target
+	 * Recommend items to a target.
 	 * 
 	 * @param target
 	 *            the recommendation target (user id, group id etc)

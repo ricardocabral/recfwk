@@ -1,7 +1,7 @@
 package com.isnotworking.recfwk.util;
 
 /**
- * Misc string utils
+ * Misc string utils.
  * 
  * @author ricardocabral
  * 

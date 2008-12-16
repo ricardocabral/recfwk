@@ -20,7 +20,7 @@ package com.isnotworking.recfwk.model;
 import java.util.List;
 
 /**
- * represents a recommendation made
+ * Represents a recommendation made.
  * 
  * @author ricardocabral
  * 
@@ -43,7 +43,7 @@ public class Recommendation {
 	}
 
 	/**
-	 * items recommended
+	 * Items recommended.
 	 * 
 	 * @return
 	 */

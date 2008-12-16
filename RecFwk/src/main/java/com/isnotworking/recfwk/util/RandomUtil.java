@@ -3,16 +3,20 @@ package com.isnotworking.recfwk.util;
 import java.util.Random;
 
 /**
- * Provides helpers for common random/statistics functions
+ * Provides helpers for common random/statistics functions.
  * 
  * @author ricardocabral
  * 
  */
 public class RandomUtil {
+	/**
+	 * internal random generator.
+	 * 
+	 */
 	private static Random random = new Random();
 
 	/**
-	 * random float between two numbers
+	 * random float between two numbers.
 	 * 
 	 * @param d
 	 *            lower limit
@@ -25,7 +29,7 @@ public class RandomUtil {
 	}
 
 	/**
-	 * random integer between two numbers
+	 * Random integer between two numbers.
 	 * 
 	 * @param i
 	 *            lower limit
