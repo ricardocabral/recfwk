@@ -26,4 +26,37 @@ package com.isnotworking.recfwk.vis;
  */
 public interface PlotBivariatePerformance extends BasicPlot {
 
+	/**
+	 * Adds a series of experimental values for a two variables and their
+	 * associated performance.
+	 * 
+	 * @param variable1
+	 *            variable1 values. This array dimension should be equal to the
+	 *            performance array and to the other variable array.
+	 * @param variable2
+	 *            variable1 values. This array dimension should be equal to the
+	 *            performance array and to the other variable array.
+	 * @param performance
+	 *            performance values.
+	 * @param performanceLabel
+	 *            performance measure name
+	 * @param variable1Label
+	 *            variable1 name
+	 * @param variable2Label
+	 *            variable2 name
+	 * @param plotType
+	 *            the type of multivariate plot to draw. Should be one of:
+	 *            <ul>
+	 *            <li>"colorheatmap" - 2D scatterplot with a variable on each
+	 *            axis and performance coded as the point color
+	 *            <li>"grayheatmap" - 2D scatterplot with a variable on each
+	 *            axis and performance coded as the point shade of gray
+	 *            <li>"heightmap" - 3D plot, where performance is represented as
+	 *            the Z (height) axis
+	 *            </ul>
+	 * 
+	 */
+	void addPerformanceSeries(float[] variable1, float[] variable2,
+			float[] performance, String performanceLabel,
+			String variable1Label, String variable2Label, String plotType);
 }

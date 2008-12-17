@@ -26,4 +26,22 @@ package com.isnotworking.recfwk.vis;
  */
 public interface PlotHistogram extends BasicPlot {
 
+	/**
+	 * Sets histogram data to be the frequency of occurrence of the given event
+	 * count or entities identified by integers.
+	 * 
+	 * @param counts
+	 *            all counts
+	 */
+	void setOccurrences(int[] counts);
+
+	/**
+	 * Sets histogram data to be the frequency of occurrence of the given
+	 * entities, identified by strings.
+	 * 
+	 * @param entities
+	 *            all entity occurrences
+	 */
+	void setOccurrences(String[] entities);
+
 }
