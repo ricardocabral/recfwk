@@ -30,7 +30,7 @@ import com.isnotworking.recfwk.model.ItemTupleReader;
 import com.isnotworking.recfwk.util.IOUtils;
 
 /**
- * reads data from text comma-separated files
+ * Reads data from text comma-separated files.
  * 
  * @author ricardocabral
  * 
@@ -45,17 +45,17 @@ public class CSVItemTupleReader implements ItemTupleReader {
 			.getLogger(CSVItemTupleReader.class);
 
 	/**
-	 * @param separator
+	 * @param nseparator
 	 *            field values separator
-	 * @param filename
+	 * @param nfilename
 	 *            input filename (absolute path)
 	 * @throws FileNotFoundException
 	 */
-	public CSVItemTupleReader(final String separator, final String filename)
+	public CSVItemTupleReader(final String nseparator, final String nfilename)
 			throws FileNotFoundException {
 		super();
-		this.separator = separator;
-		this.filename = filename;
+		separator = nseparator;
+		filename = nfilename;
 
 		reader = new BufferedReader(new FileReader(filename));
 
