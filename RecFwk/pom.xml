@@ -21,6 +21,23 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
+				<configuration>
+					<source>1.5</source>
+					<aggregate>true</aggregate>
+					<doclet>org.umlgraph.doclet.UmlGraphDoc</doclet>
+					<docletArtifact>
+						<groupId>umlgraph</groupId>
+						<artifactId>UMLGraph</artifactId>
+						<version>5.2</version>
+					</docletArtifact>
+					<additionalparam>
+						-doctitle "RecFwk ${pom.version} API"
+						-use
+						-version
+						-author						
+						-header  "&lt;a href=http://code.google.com/p/recfwk/&gt;RecFwk&lt;/a&gt;"
+		          </additionalparam>
+				</configuration>
 				<executions>
 					<execution>
 						<id>attach-javadocs</id>

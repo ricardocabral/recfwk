@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="./PlotUnivariatePerformance.html" title="com.isnotworking.recfwk.vis.PlotUnivariatePerformance" alt="" coords="16,109,195,149"/>
+<area shape="rect" href="./PlotHistogram.html" title="com.isnotworking.recfwk.vis.PlotHistogram" alt="" coords="240,109,344,149"/>
+<area shape="rect" href="./PlotBivariatePerformance.html" title="com.isnotworking.recfwk.vis.PlotBivariatePerformance" alt="" coords="389,109,560,149"/>
+<area shape="rect" href="./BasicPlot.html" title="com.isnotworking.recfwk.vis.BasicPlot" alt="" coords="251,11,333,51"/>
+</map>

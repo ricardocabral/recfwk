@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="./Recommender.html" title="com.isnotworking.recfwk.model.Recommender" alt="" coords="16,10,123,50"/>
+<area shape="rect" href="./RecommendedItem.html" title="com.isnotworking.recfwk.model.RecommendedItem" alt="" coords="125,116,261,140"/>
+<area shape="rect" href="./Recommendation.html" title="com.isnotworking.recfwk.model.Recommendation" alt="" coords="264,18,389,42"/>
+<area shape="rect" href="./ItemTupleWriter.html" title="com.isnotworking.recfwk.model.ItemTupleWriter" alt="" coords="435,10,549,50"/>
+<area shape="rect" href="./ItemTupleReader.html" title="com.isnotworking.recfwk.model.ItemTupleReader" alt="" coords="595,10,720,50"/>
+<area shape="rect" href="./ItemSimilarity.html" title="com.isnotworking.recfwk.model.ItemSimilarity" alt="" coords="765,10,864,50"/>
+<area shape="rect" href="./Item.html" title="com.isnotworking.recfwk.model.Item" alt="" coords="172,18,215,42"/>
+</map>
