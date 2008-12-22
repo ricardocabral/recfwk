@@ -6,7 +6,8 @@
 	<packaging>jar</packaging>
 	<version>0.3</version>
 	<name>RecFwk</name>
-	<url>http://maven.apache.org</url>
+    <description>This software framework provides basic code for helping the process of designing and implementing recommender engines.</description>
+	<url>http://code.google.com/p/recfwk/</url>
 	<build>
 		<plugins>
 			<plugin>
