@@ -1,4 +1,4 @@
-package recflickr.experiments;
+package com.isnotworking.recflickr.experiments;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -10,15 +10,15 @@ import java.util.Random;
 import org.apache.commons.collections.bidimap.DualHashBidiMap;
 import org.apache.log4j.Logger;
 
-import recfwk.engine.BaseConfig;
-import recfwk.engine.SetRetrievalEvaluator;
-import recfwk.engine.ExperimentRecorder;
-import recfwk.io.CSVItemTupleReader;
-import recfwk.model.Recommendation;
-import recfwk.model.RecommendedItem;
-import recfwk.model.Recommender;
-import recfwk.util.RandomUtil;
-import recfwk.util.StopWatch;
+import com.isnotworking.recfwk.engine.BaseConfig;
+import com.isnotworking.recfwk.engine.ExperimentRecorder;
+import com.isnotworking.recfwk.engine.SetRetrievalEvaluator;
+import com.isnotworking.recfwk.io.CSVItemTupleReader;
+import com.isnotworking.recfwk.model.Recommendation;
+import com.isnotworking.recfwk.model.RecommendedItem;
+import com.isnotworking.recfwk.model.Recommender;
+import com.isnotworking.recfwk.util.RandomUtil;
+import com.isnotworking.recfwk.util.StopWatch;
 
 public class PhotosForUsersByContactFavs extends BaseFlickrExperiment {
 
@@ -112,7 +112,7 @@ public class PhotosForUsersByContactFavs extends BaseFlickrExperiment {
 				Arrays.sort(vals);
 
 				for (int i = vals.length - 1; i >= 0; i--) {
-					popularPhotos.add((String) bidiPhotopop.getKey(vals[i]));
+					popularPhotos.add(bidiPhotopop.getKey(vals[i]).toString());
 				}
 				log.info("learned popular photos");
 
@@ -188,8 +188,10 @@ public class PhotosForUsersByContactFavs extends BaseFlickrExperiment {
 
 			int rank = RandomUtil.randomInt(5, 30);
 
-			SetRetrievalEvaluator evalContactFavs = new SetRetrievalEvaluator(testRec, rank);
-			SetRetrievalEvaluator evalPopularPhotos = new SetRetrievalEvaluator(testRec, rank);
+			SetRetrievalEvaluator evalContactFavs = new SetRetrievalEvaluator(
+					testRec, rank);
+			SetRetrievalEvaluator evalPopularPhotos = new SetRetrievalEvaluator(
+					testRec, rank);
 
 			Object[] users = trainUF.keySet().toArray();
 

@@ -1,4 +1,4 @@
-package recflickr.experiments;
+package com.isnotworking.recflickr.experiments;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -8,16 +8,16 @@ import java.util.Random;
 
 import org.apache.log4j.Logger;
 
-import recflickr.recommenders.VisualPhotoRecommender;
-import recfwk.engine.BaseConfig;
-import recfwk.engine.ExperimentRecorder;
-import recfwk.engine.SetRetrievalEvaluator;
-import recfwk.io.CSVItemTupleReader;
-import recfwk.model.Recommendation;
-import recfwk.model.RecommendedItem;
-import recfwk.model.Recommender;
-import recfwk.util.RandomUtil;
-import recfwk.util.StopWatch;
+import com.isnotworking.recflickr.recommenders.VisualPhotoRecommender;
+import com.isnotworking.recfwk.engine.BaseConfig;
+import com.isnotworking.recfwk.engine.ExperimentRecorder;
+import com.isnotworking.recfwk.engine.SetRetrievalEvaluator;
+import com.isnotworking.recfwk.io.CSVItemTupleReader;
+import com.isnotworking.recfwk.model.Recommendation;
+import com.isnotworking.recfwk.model.RecommendedItem;
+import com.isnotworking.recfwk.model.Recommender;
+import com.isnotworking.recfwk.util.RandomUtil;
+import com.isnotworking.recfwk.util.StopWatch;
 
 public class PhotosForUsersByVisualSim extends BaseFlickrExperiment {
 
