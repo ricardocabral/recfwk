@@ -1,4 +1,4 @@
-package recflickr.experiments;
+package com.isnotworking.recflickr.experiments;
 
 import java.io.File;
 import java.io.FileNotFoundException;

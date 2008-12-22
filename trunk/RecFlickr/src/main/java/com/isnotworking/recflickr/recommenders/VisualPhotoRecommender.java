@@ -1,4 +1,4 @@
-package recflickr.recommenders;
+package com.isnotworking.recflickr.recommenders;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,10 +11,10 @@ import net.imgseek.imgdb.core.ImgdbEngine;
 import org.apache.commons.collections.bidimap.DualHashBidiMap;
 import org.apache.log4j.Logger;
 
-import recfwk.engine.BaseConfig;
-import recfwk.model.Recommendation;
-import recfwk.model.RecommendedItem;
-import recfwk.model.Recommender;
+import com.isnotworking.recfwk.engine.BaseConfig;
+import com.isnotworking.recfwk.model.Recommendation;
+import com.isnotworking.recfwk.model.RecommendedItem;
+import com.isnotworking.recfwk.model.Recommender;
 
 public class VisualPhotoRecommender implements Recommender {
 

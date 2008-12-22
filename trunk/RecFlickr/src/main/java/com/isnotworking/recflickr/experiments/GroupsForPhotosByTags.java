@@ -1,7 +1,7 @@
 /**
  * 
  */
-package recflickr.experiments;
+package com.isnotworking.recflickr.experiments;
 
 /**
  * @author ricardocabral
