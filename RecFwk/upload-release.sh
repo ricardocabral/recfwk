@@ -1,0 +1,2 @@
+./googlecode_upload.py -s "Source code" -p recfwk  -u rnc000  -l  "Featured,Type-Source,OpSys-All" --config-dir=none /Users/ricardocabral/Projects/RecFwk/target/RecFwk-0.3-src.zip
+./googlecode_upload.py -s "End-user Jar with dependencies" -p recfwk  -u rnc000  -l  "Featured,OpSys-All" --config-dir=none /Users/ricardocabral/Projects/RecFwk/target/RecFwk-0.3-jar-with-dependencies.jar
